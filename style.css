@@ -20,6 +20,7 @@
 }
 
 body{
+    position: relative;
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
     color: white;
@@ -60,6 +61,7 @@ nav{
 .lista {
     list-style: none; /* remove a bolinha */
     display: flex; /* transforma a lista em um flex container */
+    justify-content: space-around;
   }
 .lista li{
     font-weight: bold;
@@ -165,18 +167,17 @@ aside > ul {
     max-width: 800px;
     min-width: 500px;
 }
-aside > ul > li {
-    margin-bottom: 5px;
+article> li{
+    padding: 10px;
 }
-
 
 footer{
     background-color: #15492c;
     color: white;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
 
-    font: normal bold 0.5em Arial;
+    font: normal bold 1em Arial;
 }
 strong{
     color: #227747;
